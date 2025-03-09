@@ -1,0 +1,79 @@
+body{
+    background: url(../anh/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 15px;
+}
+#anhnen{
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    align-items: flex-start;
+
+}
+#form-login{
+    max-width: 400px;
+    background: rgba(204, 202, 202, 0.8);
+    flex-grow: 1;
+    padding: 25px 25px 35px;
+    box-shadow:0px 0px 17px 2px rgba(119, 142, 233, 0.8);
+    margin-top: 250px;
+}
+.form-heading{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-group{
+    border-bottom: 1px solid rgb(79, 77, 77);
+    margin-top: 15px;
+    margin-bottom: 17px;
+    display: flex;
+  
+}
+.form-group i{
+    font-size: 14px;
+    padding-top:5px ;
+    padding-right: 10px;
+}
+.form-input{
+    font-size: 20px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    color: rgb(18, 17, 17);
+    flex-grow: 1;
+}
+.form-input::placeholder{
+    color: rgb(37, 35, 35);
+}
+.form-submit{
+    background: transparent;
+    border: 2px solid black;
+    color: rgb(17, 18, 18);
+    width: 100%;
+    text-transform: uppercase;
+    padding: 6px 10px ;
+    transition: 0.25s ease-in-out;
+    margin-top: 30px;
+}
+.form-submit:hover{
+    border: 2px solid rgb(94, 145, 227);
+}
+#form-home{
+
+    max-width :unset;
+    max-height: 50px;
+    background: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    padding-top: 20px;
+    margin-right: 30px;
+    accent-color: grey;
+}
+b{
+    font-size: 15px;
+    color: rgb(230, 130, 130);
+}
